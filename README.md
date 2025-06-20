@@ -8,13 +8,13 @@ The management has now commissioned B\@ltic Networks to redesign the site networ
 Table of Contents
 1. Introduction
 2. Network Simulation
-- 2.1. Network Topology
-- 2.1.2. IPv6 Addressing Scheme
-- 2.1.3. VLAN Segmentation
-- 2.1.4. Static Routing Configuration
-- 2.1.5 IPAM-Table (IPv6)
-- 2.2.1. IPv6 Implementation
-- 2.2.2. OSPFv3 Dynamic Routing
+  - 2.1. Network Topology
+  - 2.1.2. IPv6 Addressing Scheme
+  - 2.1.3. VLAN Segmentation
+  - 2.1.4. Static Routing Configuration
+  - 2.1.5 IPAM-Table (IPv6)
+  - 2.2.1. IPv6 Implementation
+  - 2.2.2. OSPFv3 Dynamic Routing
 
 
 
@@ -26,12 +26,12 @@ Table of Contents
 2.1. Network Topology
 
 Core Devices:
-- Routers: Cisco 4331 (RT-HH-01, RT-HL-01, RT-B-01, RT-M-01).
-- Switches: Cisco 3650 L3 (SW-HH-01, SW-HL-01, SW-B-01, SW-M-01).
+  - Routers: Cisco 4331 (RT-HH-01, RT-HL-01, RT-B-01, RT-M-01).
+  - Switches: Cisco 3650 L3 (SW-HH-01, SW-HL-01, SW-B-01, SW-M-01).
 
 Transport Links:
-- Bandwidth: 2000 Kbps per link.
-- Serial connections between routers (e.g., RT-HH-01 ↔ RT-HL-01).
+  - Bandwidth: 2000 Kbps per link.
+  - Serial connections between routers (e.g., RT-HH-01 ↔ RT-HL-01).
   
 2.1.2. IPv6 Addressing Scheme
 
@@ -77,12 +77,13 @@ Gateway: 2001:db8:4:60::1
 2.1.3. VLAN Segmentation
 
 - B & M: Single VLAN for servers.
-- HH & HL: Two VLANs per site (Clients + Management).
+  - Berlin (B): VLAN 50 (Webserver).
+  - Munich (M): VLAN 60 (Webserver).
 
-- Hamburg (HH): VLAN 10 (Clients), VLAN 20 (Management).
-- Lübeck (HL): VLAN 30 (Clients), VLAN 40 (Servers).
-- Berlin (B): VLAN 50 (Webserver).
-- Munich (M): VLAN 60 (Webserver).
+- HH & HL: Two VLANs per site (Clients + Management).
+  - Hamburg (HH): VLAN 10 (Clients), VLAN 20 (Management).
+  - Lübeck (HL): VLAN 30 (Clients), VLAN 40 (Servers).
+
 
 2.1.4. Static Routing
 
