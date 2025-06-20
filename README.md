@@ -77,10 +77,12 @@ Gateway: 2001:db8:4:60::1
 2.1.3. VLAN Segmentation
 
 - B & M: Single VLAN for servers.
+
   - Berlin (B): VLAN 50 (Webserver).
   - Munich (M): VLAN 60 (Webserver).
 
 - HH & HL: Two VLANs per site (Clients + Management).
+
   - Hamburg (HH): VLAN 10 (Clients), VLAN 20 (Management).
   - Lübeck (HL): VLAN 30 (Clients), VLAN 40 (Servers).
 
