@@ -1,13 +1,35 @@
 # LF9
-Introduction to LF9
+1. Introduction to LF9
 
 The company Streamline, headquartered in Hamburg, has three additional locations: Lübeck, Berlin, and Munich. All four branches are interconnected and currently use IPv4 with NAT. However, this setup has caused ongoing issues, which are only mitigated through various workaround protocols.
 
 The management has now commissioned B\@ltic Networks to redesign the site networking using IPv6 exclusively.
 
+Table of Contents
+1. Introduction
+2. Network Simulation
+- 2.1. Network Topology
+- 2.1.2. IPv6 Addressing Scheme
+- 2.1.3. VLAN and Subnet Allocation
+- 2.1.4. Static Routing Configuration
 
 
 
+
+
+
+2. Network Simulation
+
+2.1. Network Topology
+
+Core Devices:
+- Routers: Cisco 4331 (RT-HH-01, RT-HL-01, RT-B-01, RT-M-01).
+- Switches: Cisco 3650 L3 (SW-HH-01, SW-HL-01, SW-B-01, SW-M-01).
+
+Transport Links:
+- Bandwidth: 2000 Kbps per link.
+- Serial connections between routers (e.g., RT-HH-01 ↔ RT-HL-01).
+  
 
 
 
