@@ -1,5 +1,5 @@
 # LF9
-#Introduction to LF9
+Introduction to LF9
 
 The company Streamline, headquartered in Hamburg, has three additional locations: Lübeck, Berlin, and Munich. All four branches are interconnected and currently use IPv4 with NAT. However, this setup has caused ongoing issues, which are only mitigated through various workaround protocols.
 
@@ -21,7 +21,7 @@ The management has now commissioned B\@ltic Networks to redesign the site networ
 
 
 
-#IPv6 Adressing Scheme
+IPv6 Adressing Scheme
 -Provider Independent Space: 2001:db8::/64
 -Site Subnets:
 
