@@ -148,6 +148,5 @@ fd00:<Link-ID>::<DCE=1/DTE=2>/127
 
 - OSPFv3 Configuration:
 
-interface GigabitEthernet0/0/0
-
-ipv6 ospf 1 area 0
+  - interface GigabitEthernet0/0/0
+  - ipv6 ospf 1 area 0
