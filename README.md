@@ -39,44 +39,17 @@ Transport Links:
   
 2.1.2. IPv6 Addressing Scheme
 
-IPv6 Adressing Scheme
--Provider Independent Space: 2001:db8::/64
--Site Subnets:
+## 2.1.2. IPv6 Addressing Scheme
 
-Hamburg, Client Network 1
-(HH)
-Vlan: 10,
-Subnet: 2001:db8:1:10::/64,
-Gateway: 2001:db8:1:10::1
+| Standort    | VLAN | Netzwerkzweck      | Subnet                   | Gateway                  |
+|-------------|------|---------------------|---------------------------|---------------------------|
+| Hamburg     | 10   | Client Network 1    | 2001:db8:1:10::/64        | 2001:db8:1:10::1          |
+| Hamburg     | 20   | Client Network 2    | 2001:db8:1:20::/64        | 2001:db8:1:20::1          |
+| Lübeck      | 30   | Client Network 3    | 2001:db8:2:30::/64        | 2001:db8:2:30::1          |
+| Lübeck      | 40   | Server Network      | 2001:db8:2:40::/64        | 2001:db8:2:40::1          |
+| Berlin      | 50   | Webserver           | 2001:db8:3:50::/64        | 2001:db8:3:50::1          |
+| München     | 60   | Webserver           | 2001:db8:4:60::/64        | 2001:db8:4:60::1          |
 
-Hamburg, Client Network 2
-(HH)
-Vlan: 20,
-Subnet: 2001:db8:1:20::/64,
-Gateway: 2001:db8:1:20::1
-
-Lübeck, Client Network 3
-(HL)
-Vlan: 30,
-Subnet: 2001:db8:2:30::/64,
-Gateway: 2001:db8:2:30::1
-
-Lübeck (HL), Server Network
-Vlan: 40
-Subnet: 2001:db8:2:40::/64 
-Gateway: 2001:db8:2:40::1
-
-Berlin, Webserver
-(B)
-Vlan: 50,
-Subnet: 2001:db8:3:50::/64, 
-Gateway: 2001:db8:3:50::1
-
-Munich, Webserver
-(M)
-Vlan: 60,
-Subnet: 2001:db8:4:60::/64,
-Gateway: 2001:db8:4:60::1
 
 2.1.3. VLAN Segmentation
 
