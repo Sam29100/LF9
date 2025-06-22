@@ -179,5 +179,6 @@ domain-name streamline.de
 
 - Enables automatic route updates.
 - Config Example:
+
 ipv6 router ospf 1
 router-id 10.0.1.1
