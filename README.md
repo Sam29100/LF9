@@ -154,10 +154,15 @@ fd00:<Link-ID>::<DCE=1/DTE=2>/127
 3.1. SSH & Password Policies
 
 - SSH Setup:
+
 username admin secret Str0ngP@ss
+
 ip domain-name streamline.local
+
 crypto key generate rsa
+
 line vty 0 4
+
 transport input ssh
 
 - Banner:
@@ -171,8 +176,11 @@ banner motd #Unauthorized access prohibited!#
 
 - Clients auto-configure via SLAAC.
 - DHCPv6 for DNS & NTP:
+
 ipv6 dhcp pool VLAN10
+
 dns-server 2001:db8:1:10::100
+
 domain-name streamline.de
 
 4.2. OSPFv3 for Dynamic Routing
@@ -181,4 +189,5 @@ domain-name streamline.de
 - Config Example:
 
 ipv6 router ospf 1
+
 router-id 10.0.1.1
