@@ -16,12 +16,10 @@ Table of Contents
   - 2.2.1. IPv6 Implementation
   - 2.2.2. OSPFv3 Dynamic Routing
 3. Security Hardening
- - 3.1. Router & Switch Security
- - 3.1.1. SSH & Password Policies
- - 3.1.2. Access Control Lists (ACLs)
+  - 3.1. SSH & Password Policies
 4. Automation & Optimization
- - 4.1. SLAAC & DHCPv6 for Clients
- - 4.2. OSPFv3 for Dynamic Routing
+  - 4.1. SLAAC & DHCPv6 for Clients
+  - 4.2. OSPFv3 for Dynamic Routing
 
 
 
@@ -150,3 +148,35 @@ fd00:<Link-ID>::<DCE=1/DTE=2>/127
 
   - interface GigabitEthernet0/0/0
   - ipv6 ospf 1 area 0
+
+3. Security Hardening
+
+3.1. SSH & Password Policies
+
+- SSH Setup:
+username admin secret Str0ngP@ss
+ip domain-name streamline.local
+crypto key generate rsa
+line vty 0 4
+transport input ssh
+
+- Banner:
+banner motd #Unauthorized access prohibited!#
+
+
+4. Automation & Optimization
+
+4.1. SLAAC & DHCPv6 for Clients
+
+- Clients auto-configure via SLAAC.
+- DHCPv6 for DNS & NTP:
+ipv6 dhcp pool VLAN10
+dns-server 2001:db8:1:10::100
+domain-name streamline.de
+
+4.2. OSPFv3 for Dynamic Routing
+
+- Enables automatic route updates.
+- Config Example:
+ipv6 router ospf 1
+router-id 10.0.1.1
