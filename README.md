@@ -39,8 +39,6 @@ Transport Links:
   
 2.1.2. IPv6 Addressing Scheme
 
-## 2.1.2. IPv6 Addressing Scheme
-
 | Standort    | VLAN | Netzwerkzweck      | Subnet                   | Gateway                  |
 |-------------|------|---------------------|---------------------------|---------------------------|
 | Hamburg     | 10   | Client Network 1    | 2001:db8:1:10::/64        | 2001:db8:1:10::1          |
