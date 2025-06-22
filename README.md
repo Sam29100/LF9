@@ -148,4 +148,5 @@ RT-M-01: 10.0.4.1
 - OSPFv3 Configuration:
 
 interface GigabitEthernet0/0/0
+
 ipv6 ospf 1 area 0
