@@ -166,6 +166,7 @@ banner motd #Unauthorized access prohibited!#
 
 4. Automation & Optimization
 
+
 4.1. SLAAC & DHCPv6 for Clients
 
 - Clients auto-configure via SLAAC.
