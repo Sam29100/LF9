@@ -138,3 +138,12 @@ Host Addressing: 2001:db8:<Site>:<VLAN>:<MAC-based-ID>/64
 - ULA for Router Links:
 fd00:<Link-ID>::<DCE=1/DTE=2>/127
 
+2.2.2. OSPFv3 Dynamic Routing
+- Router IDs:
+RT-HH-01: 10.0.1.1
+RT-HL-01: 10.0.2.1
+RT-B-01: 10.0.3.1
+RT-M-01: 10.0.4.1
+- OSPFv3 Configuration:
+interface GigabitEthernet0/0/0
+ipv6 ospf 1 area 0
