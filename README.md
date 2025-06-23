@@ -128,7 +128,7 @@ fd00:<Link-ID>::<DCE=1/DTE=2>/127
 
 username admin secret Str0ngP@ss
 
-ip domain-name streamline.local
+ip domain-name streamline.de
 
 crypto key generate rsa
 
