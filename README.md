@@ -44,7 +44,7 @@ Transport Links:
 | Hamburg     | 10   | Client Network 1    | 2001:db8:1:10::/64        | 2001:db8:1:10::1          |
 | Hamburg     | 20   | Client Network 2    | 2001:db8:1:20::/64        | 2001:db8:1:20::1          |
 | Lübeck      | 30   | Client Network 3    | 2001:db8:2:30::/64        | 2001:db8:2:30::1          |
-| Lübeck      | 40   | Server Network      | 2001:db8:2:40::/64        | 2001:db8:2:40::1          |
+| Lübeck      | 40   | Client Network 4    | 2001:db8:2:40::/64        | 2001:db8:2:40::1          |
 | Berlin      | 50   | Webserver           | 2001:db8:3:50::/64        | 2001:db8:3:50::1          |
 | München     | 60   | Webserver           | 2001:db8:4:60::/64        | 2001:db8:4:60::1          |
 
