@@ -126,7 +126,7 @@ fd00:<Link-ID>::<DCE=1/DTE=2>/127
 
 - SSH Setup:
 
-username admin secret Str0ngP@ss
+username admin secret P@ssw0rd
 
 ip domain-name streamline.de
 
