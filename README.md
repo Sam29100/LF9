@@ -161,4 +161,10 @@ domain-name streamline.de
 
 ipv6 router ospf 1
 
+
+
+
+https://docs.google.com/document/d/1Th2YHLg91TuQ-xBZBypIEwJU1t4ofukxBOwxhVeOy_4/edit?usp=sharing
+
+
 router-id 10.0.1.1
